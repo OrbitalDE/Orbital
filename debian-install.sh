@@ -8,3 +8,5 @@ rm -rf ~/.config/orbitalde
 mkdir ~/.config/orbitalde
 mv extra/autostart.sh ~/.config/orbitalde
 mv extra/wallpaper.jpg ~/.config/orbitalde
+rm -rf ~/.config/tint2
+mv extra/tint2 ~/.config
