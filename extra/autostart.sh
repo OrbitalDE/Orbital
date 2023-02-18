@@ -1,5 +1,5 @@
 #!/bin/bash
 
-feh --bg-scale ~/.config/orbitalde/wallpaper.png
+feh --bg-scale ~/.config/orbitalde/wallpaper.jpg
 picom
 tint2
