@@ -1,4 +1,3 @@
 #!/bin/bash
-
-feh --bg-scale ~/.config/orbitalde/wallpaper.jpg
+feh --bg-scale ~/.config/orbitalde/wallpaper.png
 picom

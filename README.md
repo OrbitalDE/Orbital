@@ -1,38 +1,38 @@
-![Logo Banner](https://raw.githubusercontent.com/MrBeeBenson/skyWM/main/media/logo.jpg)
+![Logo Banner](https://raw.githubusercontent.com/OrbitalDE/Orbital/main/media/Orbital-banner.png)
 
-**Please note:** skyWM is currently in heavy development and is not usable as of yet. Documentation and versions will change quickly.
+**Please note:** Orbital is currently in heavy development, we cannot guarentee stability. Documentation and versions will change quickly.
 
-# skyWM
+# Orbital
 
-skyWM is an extensible tiling Window Manager written in Rust using the [penrose Window Manager library](https://github.com/sminez/penrose).
+Orbital is a lightweight desktop environment powered by [skyWM](https://github.com/orbitalde/skywm). skyWM is an extensible tiling Window Manager written in Rust using the [penrose Window Manager library](https://github.com/sminez/penrose).
 
-skyWM has a clear and distinct focus adhering to the KISS and Unix philosophy. As such, no additional tools such as a status bar, wallpaper utility (such as feh) or lock screen are provided by default, however can be added by the user.
+skyWM has a clear and distinct focus adhering to the KISS and Unix philosophy. Building on that, Orbital provides the user with a small selection of essential applications, and modifications to make skyWM a usable home for you.
 
-* To customise skyWM to your liking you can edit the main.rs file directly to add your own custom keybindings, startup processes and more. Once you have customised skyWM you can recompile and utilise it for your setup.
+**Applications utilised:**
+- Window Manager: skyWM
+- Dock: Tint2
+- Background image viewer: Feh
+- Web Browser: Firefox
+- File manager: Thunar
+- GTK3 Theme: Yaru-purple
+- Text editor: Vim
+- Terminal Emulator: Terminator
 
 ## Installation
 
-skyWM is not currently packaged for any Linux distribution. 
+Orbital is not currently packaged for any distribution.
 
-Please see [INSTALL.md](https://github.com/MrBeeBenson/skyWM/blob/main/docs/INSTALL.md) to build it from source.
+Feel free to install it on a Debian/Ubuntu-based system with our `debian-install.sh` script with the steps below:
 
-## Customisation & Configuration
-
-To configure and customise skyWM please see our [Configuration Documentation](https://github.com/MrBeeBenson/skyWM/blob/main/docs/configure.md).
+```sh
+git clone https://github.com/orbitalde/orbital
+cd orbital/
+bash debian-install.sh
+```
 
 ## Screenshots
 
-![Default skyWM](https://raw.githubusercontent.com/MrBeeBenson/skyWM/main/media/skywm.png)
-
-* skyWM by default (Terminal emulator font is not default)
-
-![Customised skyWM (No Windows)](https://raw.githubusercontent.com/MrBeeBenson/skyWM/main/media/skywm2.png)
-
-![Customised skyWM with Windows](https://raw.githubusercontent.com/MrBeeBenson/skyWM/main/media/skywm3.png)
-
-* User customised skyWM, utilising Polybar and feh
+* Coming soon
 
 # Credits
-Created by [Chadano](https://chadano.github.io)
-
-- See [Contribution list](https://github.com/CatiumDE/skyWM/graphs/contributors) for a list of contributors
+Created by [http.llamaz](https://httpllamaz.github.io) with help from [jakkaCollins](https://jakkacollins.github.io).
