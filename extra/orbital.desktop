@@ -1,6 +1,6 @@
 [Desktop Entry]
-Name=skywm
-Comment=Extensible tiling window manager written in Rust
+Name=orbital
+Comment=Desktop environment based on skyWM
 TryExec=skyWM
 Exec=skyWM
 Type=Application

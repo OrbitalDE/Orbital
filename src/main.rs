@@ -22,7 +22,9 @@ const TERMINAL: &str = "terminator";
 const LAUNCHER: &str = "dmenu_run";
 
 // The array containing the commands to be ran at startup.
-const AUTOSTART: [&str; 0] = [];
+const AUTOSTART: [&str; 1] = [
+    "bash ~/.config/orbitalde/autostart.sh"
+];
 
 // Add custom keybind constants here:
 
