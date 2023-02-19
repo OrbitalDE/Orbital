@@ -20,6 +20,7 @@ use simplelog::{LevelFilter, SimpleLogger};
 // Replace these with your preferred terminal and program launcher if required.
 const TERMINAL: &str = "terminator";
 const LAUNCHER: &str = "dmenu_run";
+const KEYBINDS: &str = "firefox ~/.config/orbitalde/keybinds/index.html";
 
 // The array containing the commands to be ran at startup.
 const AUTOSTART: [&str; 2] = [
@@ -38,6 +39,7 @@ fn main() -> penrose::Result<()> {
     let config = Config::default();
     let key_bindings = gen_keybindings! {
         // Program launchers
+        "M" => run_external!(KEYBINDS);
         "M-D" => run_external!(LAUNCHER);
         "M-Return" => run_external!(TERMINAL);
 
