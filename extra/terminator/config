@@ -1,0 +1,22 @@
+[global_config]
+  borderless = True
+  title_transmit_bg_color = "#ffffff"
+  title_receive_bg_color = "#ffffff"
+  title_inactive_fg_color = "#ffffff"
+  title_inactive_bg_color = "#ffffff"
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#ffffff"
+    cursor_color = "#aaaaaa"
+    foreground_color = "#000000"
+    show_titlebar = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]

@@ -15,3 +15,7 @@ rm -rf ~/.config/gtk-3.0
 mv extra/gtk-3.0 ~/.config
 sudo cp extra/orbital-settings /usr/bin
 sudo chmod +x /usr/bin/orbital-settings
+rm -rf ~/.config/picom
+mv extra/picom ~/.config/
+rm -rf ~/.config/terminator
+mv extra/terminator ~/.config
