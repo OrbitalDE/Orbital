@@ -20,7 +20,7 @@ use simplelog::{LevelFilter, SimpleLogger};
 // Replace these with your preferred terminal and program launcher if required.
 const TERMINAL: &str = "terminator";
 const LAUNCHER: &str = "dmenu_run";
-const KEYBINDS: &str = "firefox ~/.config/orbitalde/keybinds/index.html";
+const KEYBINDS: &str = "firefox https://orbitalde.github.io/Keybinds";
 
 // The array containing the commands to be ran at startup.
 const AUTOSTART: [&str; 2] = [

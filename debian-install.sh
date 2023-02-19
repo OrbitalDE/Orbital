@@ -12,4 +12,3 @@ rm -rf ~/.config/tint2
 mv extra/tint2 ~/.config
 rm -rf ~/.config/gtk-3.0
 mv extra/gtk-3.0 ~/.config
-mv extra/keybinds ~/.config/orbitalde
