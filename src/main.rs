@@ -39,7 +39,7 @@ fn main() -> penrose::Result<()> {
     let config = Config::default();
     let key_bindings = gen_keybindings! {
         // Program launchers
-        "M" => run_external!(KEYBINDS);
+        "M-h" => run_external!(KEYBINDS);
         "M-D" => run_external!(LAUNCHER);
         "M-Return" => run_external!(TERMINAL);
 
