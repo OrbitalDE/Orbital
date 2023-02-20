@@ -19,7 +19,7 @@ use simplelog::{LevelFilter, SimpleLogger};
 
 // Replace these with your preferred terminal and program launcher if required.
 const TERMINAL: &str = "terminator";
-const LAUNCHER: &str = "dmenu_run";
+const LAUNCHER: &str = "rofi -show drun -show-icons -icon-theme Yaru-purple";
 const KEYBINDS: &str = "firefox https://orbitalde.github.io/Keybinds";
 
 // The array containing the commands to be ran at startup.
@@ -43,7 +43,7 @@ fn main() -> penrose::Result<()> {
         "M-D" => run_external!(LAUNCHER);
         "M-Return" => run_external!(TERMINAL);
 
-        // Exit serWM (important to remember this one!)
+        // Exit skyWM (important to remember this one!)
         "M-S-e" => run_internal!(exit);
 
         // client management
