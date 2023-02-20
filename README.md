@@ -4,7 +4,7 @@
 
 # Orbital
 
-Orbital is a lightweight desktop environment powered by [skyWM](https://github.com/orbitalde/skywm). skyWM is an extensible tiling Window Manager written in Rust using the [penrose Window Manager library](https://github.com/sminez/penrose).
+Orbital is a lightweight desktop environment with class and style that provides tiling window management. Orbital is powered by [skyWM](https://github.com/orbitalde/skywm). skyWM is an extensible tiling Window Manager written in Rust using the [penrose Window Manager library](https://github.com/sminez/penrose).
 
 skyWM has a clear and distinct focus adhering to the KISS and Unix philosophy. Building on that, Orbital provides the user with a small selection of essential applications, and modifications to make skyWM a usable home for you.
 
@@ -32,7 +32,19 @@ bash debian-install.sh
 
 ## Screenshots
 
-* Coming soon
+![Orbital Desktop](https://raw.githubusercontent.com/OrbitalDE/Orbital/main/media/1.png)
+
+* Desktop overview of Orbital
+
+![Orbital Desktop](https://raw.githubusercontent.com/OrbitalDE/Orbital/main/media/2.png)
+
+* Orbital desktop with 3 tiled windows open: orbital-settings, Firefox showing orbital keybinds and Vim.
+
+![Orbital App Grid](https://raw.githubusercontent.com/OrbitalDE/Orbital/main/media/3.png)
+
+* Orbital App Grid (Modified Rofi)
 
 # Credits
-Created by [http.llamaz](https://httpllamaz.github.io) with help from [jakkaCollins](https://jakkacollins.github.io).
+Created by [http.llamaz](https://httpllamaz.github.io).
+
+Rofi theme by [jakkaCollins](https://jakkacollins.github.io).
