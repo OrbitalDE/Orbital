@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt-get install build-essential libglib2.0-dev cmake pkg-config libxcb-randr0-dev libxcb-xtest0-dev libxcb-xinerama0-dev libxcb-shape0-dev libxcb-xkb-dev libx11-dev libgtk-3-dev rofi terminator tint2 picom yaru-theme-gtk yaru-theme-icon vim python3-tk pavucontrol lxappearance
+sudo apt-get install build-essential libglib2.0-dev cmake pkg-config libxcb-randr0-dev libxcb-xtest0-dev libxcb-xinerama0-dev libxcb-shape0-dev libxcb-xkb-dev libx11-dev libgtk-3-dev rofi terminator tint2 picom yaru-theme-gtk yaru-theme-icon vim python3-tk pavucontrol lxappearance feh -y
 cargo build --release
 sudo cp target/release/skyWM /usr/bin/skyWM
 sudo chmod +x /usr/bin/skyWM
