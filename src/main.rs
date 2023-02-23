@@ -24,7 +24,7 @@ const KEYBINDS: &str = "firefox https://orbitalde.github.io/Keybinds";
 
 // The array containing the commands to be ran at startup.
 const AUTOSTART: [&str; 2] = [
-    "bash ~/.config/orbitalde/autostart.sh"
+    "bash ~/.config/orbitalde/autostart.sh",
     "~/.config/orbitalde/./lemonbar.sh | lemonbar -p -B#ffffff -F#000000 -g 548x18+648+3"
 ];
 
