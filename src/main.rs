@@ -23,8 +23,9 @@ const LAUNCHER: &str = "rofi -show drun -show-icons -icon-theme Yaru-purple";
 const KEYBINDS: &str = "firefox https://orbitalde.github.io/Keybinds";
 
 // The array containing the commands to be ran at startup.
-const AUTOSTART: [&str; 1] = [
+const AUTOSTART: [&str; 2] = [
     "bash ~/.config/orbitalde/autostart.sh"
+    "~/.config/orbitalde/./lemonbar.sh | lemonbar -p -B#ffffff -F#000000 -g 548x18+648+3"
 ];
 
 // Add custom keybind constants here:
